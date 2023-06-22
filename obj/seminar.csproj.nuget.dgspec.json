@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj": {}
+    "f:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj": {}
   },
   "projects": {
-    "F:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj": {
+    "f:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj",
+        "projectUniqueName": "f:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj",
         "projectName": "seminar",
-        "projectPath": "F:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj",
+        "projectPath": "f:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\seminar.csproj",
         "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
-        "outputPath": "F:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\obj\\",
+        "outputPath": "f:\\Обучение-Специалист\\Обучение сис админ\\Введение в C#\\WorkPlace\\seminar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config"
