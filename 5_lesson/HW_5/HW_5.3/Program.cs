@@ -11,7 +11,7 @@ void mass(int a)
    
     for (int i = 0; i < a; i++)
     {
-        arr[i] = Math.Round(new Random().NextDouble()*(to-from), 2);
+        arr[i] = Math.Round(new Random().NextDouble()*(to+from-i), 2);
         Console.Write(arr[i] + " ");
     }
 
