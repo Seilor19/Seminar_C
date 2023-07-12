@@ -1,4 +1,5 @@
-﻿Console.Write("Введите количество элементов массива: ");
+﻿//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+Console.Write("Введите количество элементов массива: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.Write("Минимальное значение: ");
 int from = int.Parse(Console.ReadLine()!);
@@ -11,7 +12,7 @@ void mass(int a)
    
     for (int i = 0; i < a; i++)
     {
-        arr[i] = Math.Round(new Random().NextDouble()*(to+from-i), 2);
+        arr[i] = Math.Round(new Random().NextDouble()*(to-from)+from, 2);
         Console.Write(arr[i] + " ");
     }
 
