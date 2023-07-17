@@ -45,10 +45,10 @@ void Find(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (matrix[i, j] == matrix[IRow,JCol]) 
+            if (matrix[i, j] == matrix[IRow - 1,JCol - 1]) 
             {
                 Console.Write($"Значение элемента {matrix[i,j]}");
-            
+            return;
             }
             
         }

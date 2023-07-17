@@ -1,4 +1,15 @@
-﻿void PrintArray(int[,] matr)
+﻿Console.WriteLine("Введите количество строк ");
+int m = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите количество столбцов ");
+int n = int.Parse(Console.ReadLine()!);
+int[,] matrix = new int[m, n];
+Console.Write("Введите минимальное значение элемента массива : ");
+int start = int.Parse(Console.ReadLine()!);
+Console.Write("Введите максимальное значение элемента массива : ");
+int stop = int.Parse(Console.ReadLine()!);
+
+
+void PrintArray(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
@@ -33,15 +44,7 @@ void SqareOfEven(int[,] array)
     }
 }
 
-Console.WriteLine("Введите количество строк ");
-int m = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите количество столбцов ");
-int n = int.Parse(Console.ReadLine()!);
-int[,] matrix = new int[m, n];
-Console.Write("Введите минимальное значение элемента массива : ");
-int start = int.Parse(Console.ReadLine()!);
-Console.Write("Введите максимальное значение элемента массива : ");
-int stop = int.Parse(Console.ReadLine()!);
+
 FillArray(matrix, start, stop);
 PrintArray(matrix);
 SqareOfEven(matrix);
