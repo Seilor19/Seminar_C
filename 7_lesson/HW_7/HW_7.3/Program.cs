@@ -36,16 +36,20 @@ void FillArray(int[,] matrix)
 
 void Arif(int[,] matrix)
 {
-   
-    double res;
-   
+        
+  for (int j = 0; j < matrix.GetLength(1); j++)
+{
+    double res = 0;
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        res=0;
-        for (int ij = 0; i < length; i++)
-        {
-            res+= matrix[i,j]
-        }
-        
+        res = (res + matrix[i, j]);
     }
+    res = res / row;
+    Console.Write(res + "; ");
 }
+
+}
+
+FillArray(matrix);
+PrintArray(matrix);
+Arif(matrix);
